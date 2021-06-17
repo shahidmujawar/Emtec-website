@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JSON TRY</title>
+</head>
+<body>
+	<input type="button" name="button" value="SUBMIT" onclick="getdata()">
+
+	<div class="debug">
+			<img id="myImageID"  src="11.jpg" width="107" height="98">
+
+		<script>
+			function getdata()
+			{
+				var xhttp=new XMLHttpRequest();
+				xhttp.onreadystatechange=function(){
+					if(xhttp.readyState==4 && xhttp.status==200)
+					{
+						var javaobj=JSON.parse(xhttp.response);
+						//document.getElementById('debug').innerHTML=javaobj.employees
+						//var ele=document.getElementById('debug').querySelectorAll("*");
+						var len=javaobj.employees.length;
+						console.log(len);
+						for(var i = 0; i < javaobj.employees.length; i++)
+						{
+							if((javaobj.employees[i].name).localeCompare("Ram")==0)
+							{
+								document.getElementById("myImageID").src="1.jpg";
+							}
+						}
+
+						
+						
+					}
+				};
+				xhttp.open("GET","sample.json",true);
+				xhttp.send();
+			}
+		</script>
+	</div>
+</body>
+</html>

@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+h3{
+	font-size: 25px;
+	font-family: 'Mate SC', serif;
+}
+.btn-buy{
+  padding: 5px;
+  color: #ECEFF1;
+  background-color: rgb(4, 167, 4);
+  width: 30%;
+  height: 10%;
+  border-radius: 10px;
+  box-shadow: 2px,2px,2px,2px #080808;
+  font-family: 'Playfair Display', serif;
+  font-size: large;
+}
+.btn-buy:hover{
+  background-color: rgb(37, 116, 6);
+}
+.btn-addcart{
+  padding: 5px;
+  color: #e9c8c8;
+  background-color: rgb(233, 19, 19);
+  box-shadow: 2px,2px,2px,2px #080808;
+  width: 30%;
+  height: 10%;
+  border-radius: 10px;
+  font-family: 'Playfair Display', serif;
+  font-size: large;
+}
+.btn-addcart:hover{
+  background-color:rgb(109, 10, 10);
+}
+.counter {
+  width: 150px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.counter input {
+  width: 50px;
+  border: 0;
+  line-height: 30px;
+  font-size: 20px;
+  text-align: center;
+  background: #0052cc;
+  color: #fff;
+  appearance: none;
+  outline: 0;
+}
+.counter span {
+  display: block;
+  font-size: 25px;
+  padding: 0 10px;
+  cursor: pointer;
+  color: #0052cc;
+  user-select: none;
+}
+
+/* Toggle Styles */
+
+#viewport {
+  padding-left: 250px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#content {
+  width: 100%;
+  position: relative;
+  margin-right: 0;
+}
+
+/* Sidebar Styles */
+
+#sidebar {
+  z-index: 1;
+  left: 40%;
+  max-width: 155px;
+  height: 200px;
+  margin-left: 0px;
+  background: #37474F;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#sidebar header {
+  background-color: #263238;
+  font-size: 20px;
+  line-height: 52px;
+  text-align: center;
+}
+
+.container-my {
+  position: relative;
+  text-align: center;
+  color: white;
+  
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container-body{
+  width: 500px;
+  margin-left: 20%;
+}
+
+#sidebar header a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+}
+
+#sidebar header a:hover {
+  color: #fff;
+}
+
+
+#sidebar .nav a{
+  background: none;
+  color: #CFD8DC;
+  font-size: 10px;
+  align-content: center;
+}
+
+#sidebar .nav a:hover{
+  background: none;
+  color: #ECEFF1;
+}
+
+#sidebar .nav a i{
+  margin-right: 16px;
+}
+
+      .container-md{
+              box-shadow: 5px 5px 5px 5px #888888;
+          margin: 20px auto;
+      }
+      a:visited {
+          color: red;
+          background-color: transparent;
+          text-decoration: none;
+        }
+      .table-bordered>:not(caption)>*>* {
+          border-width: 0 1px;
+          width: 150px;
+          text-align: center;
+      }
+      .bg-purple{
+        background-color: beige;
+      }
+      tr {
+    font-weight: 100;
+    font-family: 'Zilla Slab', serif;
+}
+     .navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0);
+    padding: 10px;
+    max-width: 120px;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 16px;
+    font-weight: 500;
+	}
+.home-div{
+	padding-top: 100px;
+}
+
+      .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(255 255 255);
+    background-color: darkolivegreen;
+}
+      .navbar-nav.navbar-center {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+      }
+      .navbar-nav.navbar-right {
+        position: absolute;
+        left: 85%;
+        transform: translatex(-50%);
+      }
+      
+      .logo-banner{
+          display: block;
+          margin-left: 50px;
+
+      }
+      a:link {
+          color: black;
+          background-color: transparent;
+          text-decoration: none;
+        }
+      th.col-pink{
+        background-color: rgba(201, 10, 131);
+      }
+      .container-fluid-img-responsive{
+        color: white;
+      }
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+      }
+      .navbar-brand{
+        color: white;
+      }
+      .navbar-light .navbar-brand {
+            color: white!important;
+              font-weight: 400;
+              padding-left:50px; 
+
+        }
+   
+.navbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+        z-index: 99;
+}
+.sidenav {
+    height: 100%;
+    width: 160px;
+    /* position: relative; */
+    z-index: 1;
+    /* top: 0; */
+    /* left: 0; */
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+    background-color: black;
+}
+
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.navbar-nav>li {
+    float: left;
+    margin-left: 84px;
+}
+.col-10 {
+    flex: 0 0 auto;
+    width: 83.3333333333%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+div.product-gallery {
+  margin: 5px;
+  padding-top: 10px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 500px;
+}
+
+div.product-gallery:hover {
+  border: 1px solid #777;
+}
+
+div.product-gallery img {
+  width: 300px;
+  height: 300px;
+}
+
+
+
+/*
+CSS FOR GALLERY*/
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+div.gallery img {
+    width: 100%;
+    height: 140px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 150px;
+  z-index: 1;
+  top: 0;
+  left: 0;
+   font-family: "Times New Roman", Times, serif;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+@media screen and (max-width: 600px) {
+  .sidenav {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+
+/*@media screen and (max-width: 600px) {
+  .card{
+    width: 40%;
+  }
+
+}
+*/
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.nav-link {
+  transition: 0.4s;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+.nav-link:hover {
+  background-color: #ffffff;
+  color: #EEA200;
+  padding: 24px 10px;
+}
+
+
+     .nav-item a:hover{
+        background-color: #ffffff;
+	  color: #EEA200;
+	  padding: 24px 10px;
+
+      }
+
+      .nav-item a{
+      	 transition: 0.4s;
+		  color: #ffffff;
+		  font-size: 20px;
+		  text-decoration: none;
+		  padding: 0 10px;
+		  margin: 0 10px;
+		}
+
+.parent {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 250px;
+  width: 50%;
+}
+
+.child {
+
+  height: 50px;
+  width: 50px;
+}
+}
+.button-checkout {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  width: 30%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button-checkout span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-checkout span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-checkout:hover span {
+  padding-right: 25px;
+}
+
+.button-checkout:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.cart-item-count{
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  padding: 3px;
+}

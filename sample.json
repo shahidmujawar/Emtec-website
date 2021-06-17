@@ -1,0 +1,38 @@
+{"products":[    
+    {
+	    "id":"1",
+	    "name":"Windows 10 Home", 
+	    "image":"images/products/windows.jpg",
+	    "description":"Windows 10 was developed using feedback from millions of people, so you can feel confident that Windows 10 works the way you want it to. Additionally, Windows 10 helps you stay current for a worry-free experience with the greatest features and our latest protection against viruses, phishing and malware.", 
+	    "price":3000
+	},   
+    {
+	    "id":"5",
+	    "name":"Adobe Premier Pro",
+	    "image":"images/products/adobepp.jpg",
+	    "description":"Premiere Pro is the industry-leading video editing software for film, TV and the web. Creative tools, integration with other apps and services and the power of Adobe Sensei help you craft footage into polished films and videos. With Premiere Rush you can create and edit new projects from any device.",
+	    "price":5000
+	},   
+    {
+	    "id":"4",
+		"name":"Windows Moviemaker", 
+		"image":"images/products/moviemaker.jpg", 
+		"description":"Movie Maker 10 is the best app to help you make movies from your photos, video clips, and music. It provides basic functions such as video joining, adding background music and text caption, to more advanced features like image filter, transition effects, pan-zoom effects.",
+		"price":1590
+	},   
+    {
+    	"id":"3",
+    	"name":"Nordvpn", 
+		"image":"images/products/nordvpn.jpg", 
+		"description":"NordVPN is the best VPN if you’re looking for a peace of mind when on public Wi-Fi. Securely access personal information or work files, encrypt your internet connection, and keep your browsing history private. Buy a VPN to get online privacy and security.",
+		"price":700
+	},   
+
+    {
+    	"id":"2",
+		"name":"Nortan Antivirus", 
+		"image":"images/products/nortan.jpeg", 
+		"description":"Norton AntiVirus Plus is ideal for 1 PC or Mac providing real-time threat protection against malware, spyware, ransomware, phishing attacks and more of today’s complex online and offline threats with multiple layers of advanced security technology including smart firewall. With password manager, create, store, and sync all your passwords across windows, iOS and Android devices to securely log into any site. Don’t settle for anything less. Get advanced malware protection and more today.",
+		"price":2500
+	}
+]}  
