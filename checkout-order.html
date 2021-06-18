@@ -1,20 +1,25 @@
 <html>
     <head>
         <title>Checkout</title>
+        <script>
+            var total=parseInt(localStorage.getItem('total')*100);
+            console.log(total);
+        </script>
     </head>
     <body>
         <form action=".success.html" method="POST">
+           
             <script
-            var total=parseInt(localStorage.getItem('total'));
-            console.log(total);
+                        console.log(total);
                 src="https://checkout.razorpay.com/v1/checkout.js";
                 data-key="rzp_test_LsrFTM5WyFlbR8";
-                data-amount="1000";
+                data-amount=parseInt(localStorage.getItem('total')*100);
+                console.log(data-amount);
                 data-currency="INR";
                 data-buttontext="Pay with Razorpay";
                 data-name="Emtec Technologies";
                 data-description="Business and Technology Empowered";
-                data-image=".images/logo.png";
+                data-image="./images/logo.png";
                 data-prefill.name="";
                 data-prefill.email="";
                 data-prefill.contact="";
