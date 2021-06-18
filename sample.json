@@ -4,7 +4,7 @@
 	    "name":"Windows 10 Home", 
 	    "image":"images/products/windows.jpg",
 	    "description":"Windows 10 was developed using feedback from millions of people, so you can feel confident that Windows 10 works the way you want it to. Additionally, Windows 10 helps you stay current for a worry-free experience with the greatest features and our latest protection against viruses, phishing and malware.", 
-	    "price":3000
+	    "price":1
 	},   
     {
 	    "id":"5",
