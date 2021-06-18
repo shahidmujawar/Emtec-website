@@ -6,6 +6,7 @@ function collecting(prod_name) {
 }
 function addtocart()
 {
+    window.alert("Added to Cart");
     console.log("ADD TO CART");
     var quant=document.getElementById("quantity").value;
     var pid=document.getElementById("pid").textContent;
