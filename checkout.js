@@ -1,4 +1,4 @@
 function checkout()
 {
-    window.location.href = "checkout-order.html";
+    window.location.href = "checkout-order-manual.html";
 }
