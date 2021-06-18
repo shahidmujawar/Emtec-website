@@ -4,12 +4,12 @@
     </head>
     <body>
         <form action=".success.html" method="POST">
-            <script>
+            <script
             var total=parseInt(localStorage.getItem('total'));
             console.log(total);
                 src="https://checkout.razorpay.com/v1/checkout.js";
                 data-key="rzp_test_LsrFTM5WyFlbR8";
-                data-amount="total*100";
+                data-amount="1000";
                 data-currency="INR";
                 data-buttontext="Pay with Razorpay";
                 data-name="Emtec Technologies";
@@ -19,7 +19,7 @@
                 data-prefill.email="";
                 data-prefill.contact="";
                 data-theme.color="#F37254";
-            </script>
+            ></script>
             <input type="hidden" custom="Hidden Element" name="hidden">
             </form>
     </body>
