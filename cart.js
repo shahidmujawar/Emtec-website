@@ -39,6 +39,7 @@ function setdata()
 
                         }
                     }
+                    localStorage.setItem("total",total);
                 }
                 document.getElementById("total-price").innerText=String(total)+"Rs";
                
