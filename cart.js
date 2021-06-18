@@ -5,6 +5,7 @@ window.onload = function () {
 function resetcart()
 {
     localStorage.clear();
+    document.location.reload();
 }
 function setdata()
          {
